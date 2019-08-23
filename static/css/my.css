@@ -10,6 +10,9 @@ body{
     padding: 0.3em !important;
 }
 
+.m-padded{
+    padding: 1em !important;
+}
 
 
 .m-padded-tb-mini {
@@ -145,7 +148,18 @@ body{
 
 
 
+
 /*--------------------------position---------------------*/
+
+
+.m-fixed{
+    position: fixed !important;
+}
+.m-right-bottom{
+    bottom: 0 !important;
+    right: 0 !important;
+    z-index: 10 !important;
+}
 
 .m-right-top{
     position: absolute;
