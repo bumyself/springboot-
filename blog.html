@@ -45,7 +45,7 @@
 
 
 <!-- 中间部分   -->
-    <div class="m-container-small m-padded-tb-big animated fadeIn ">
+    <div  id="waypoint" class="m-container-small m-padded-tb-big animated fadeIn ">
         <div class="ui container">
             <div class="ui top attached segment">
                 <!--头部区域-->
@@ -66,99 +66,12 @@
             <!--图片区域-->
                 <img src="https://unsplash.it/800/450?image=420" alt="" class="ui fluid rounded image">
             </div>
-<!--            <div class="ui attached segment padded">-->
-<!--            &lt;!&ndash;中间内容&ndash;&gt;-->
-<!--                <div class="ui  segment right aligned basic">-->
-<!--                    <div class="ui label basic orange">原创</div>-->
-<!--                </div>-->
-<!--                <h2 class="ui center aligned header"> 云边有个小卖部 </h2>-->
-<!--                <div id="content" class="typo typo-selection m-padded-lr-responsive m-padded-tb-large">-->
-<!--                    <p>-->
-<!--                        初夏的屋檐下，刘十三嗑完一捧瓜子，和外婆说:“感觉有人在想我们。”-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        外婆说：“想有什么用，不给钱就是王八蛋。”-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        满镇开着桔梗，蒲公英飞得比石榴树还高，一直飘进山脚的稻海。在大多数人心中，自己的故乡后来会成为一个点，如同亘古不变的孤岛。-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        外婆说，什么叫故乡，祖祖辈辈埋葬在这里，所以叫故乡。-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        山间小镇，仿佛从土地生长出来。高考离开故乡至今，除了过年，刘十三没有回来过。外婆全名王莺莺，自家院门口开了个小卖部，一开几十年。她穿着碎花短袖，白头发拢成一个髻，胳膊藏进套袖，马不停蹄忙东忙西。-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        气温上升，小卖部啤酒销路特别好，她垒起一箱箱啤酒，擦擦汗说：“你干不干活，不干活杀了你。”-->
-<!--                        刘十三惆怅地说：“你们山野之地，我待不下去。-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        院中间一棵桃树，树底下的王莺莺拿起笤帚，哗哗扫地，斜眼看着他：“要不这样，我把房子卖了，支持你创业。”-->
-<!--                        刘十三抱住她：“外婆，我爱你。-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        外婆一脚踢开他：“走走走。”-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        刘十三问：“中午吃什么？”-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        外婆点着卷烟，说：“谁他妈管你饭，出去挣钱。”-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        刘十三被踹出家门，回头一望，半棵桃树高出院墙，门头挂着破旧的小卖部招牌，背景是远处的白云青山-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        这座小院装着刘十三的童年。放学之后，他问过外婆很多问题。-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        小孩子问：“王莺莺，为什么天空那么高？”-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        老太太回答：“你看到云没有？那些都是天空的翅膀啊。”-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        不知道什么时候起，很多事情已经很多年。-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--                &lt;!&ndash;标签&ndash;&gt;-->
-
-<!--                <div class="m-padded-lr-responsive">-->
-<!--                    <div class=" ui basic teal left pointing label ">张嘉佳</div>-->
-<!--                </div>-->
-<!--                &lt;!&ndash;赞赏&ndash;&gt;-->
-<!--                <div class="ui center aligned basic segment">-->
-<!--                    <button id="payButton" class="ui orange basic circular button">赞赏</button>-->
-<!--                </div>-->
-
-
-
-
-<!--                <div   class="ui payQR flowing popup transition hidden">-->
-<!--                    <div class="ui orange basic label">-->
-<!--                        <div class="ui images " style="font-size: inherit !important;">-->
-<!--                            <div class="image ">-->
-<!--                                <img src="static/images/pay/alipay.png" alt="" class="image rounded bordered" style="width: 120px">-->
-<!--                                <div>支付宝支付</div>-->
-<!--                            </div>-->
-<!--                            <div class="image ">-->
-<!--                                <img src="static/images/pay/wechatpay.png" alt="" class="image rounded bordered" style="width: 120px">-->
-<!--                                <div>微信支付</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-
-
-
-
-<!--            </div>-->
 
             <div class="ui  attached padded segment">
 
 
                 <!--内容-->
-                <div class="ui right aligned basic segment">
+                <div  class="ui right aligned basic segment">
                     <div class="ui orange basic label" >原创</div>
                 </div>
 
@@ -168,7 +81,7 @@
 
 <!--                <pre><code  class="language-css" > p {color:red}</code></pre>-->
 
-                <div id="content" class="typo  js-toc-content  typo-selection js-toc-content m-padded-lr-responsive m-padded-tb-large" th:utext="${blog.content}">
+                <div id="content" class="typo  js-toc-content  typo-selection js-toc-content m-padded-lr-responsive m-padded-tb-large">
 
                     <h2 id="section1">一、关于 <i class="serif">Typo.css</i></h2>
 
@@ -662,12 +575,14 @@ h5,h6{font-size:1em;}
     <br>
     <br>
 
-    <div class="m-padded m-fixed m-right-bottom">
+    <div id="toolbar" class="m-padded m-fixed m-right-bottom">
         <div class="ui vertical icon buttons ">
             <button type="button" class="ui contents teal button">目录</button>
             <a href="#comment-container" class="ui teal button">留言</a>
             <button class="ui icon  wechat button"><i class="weixin  icon"></i></button>
-            <a href="#" class="ui icon   button"> <i class="chevron up icon"></i></a>
+            <!--<a href="#" class="ui icon   button"> <i class="chevron up icon"></i></a>-->
+            <div  id="toTop" class="ui icon   button"> <i class="chevron up icon"></i></div>
+
         </div>
 
     </div>
@@ -751,6 +666,9 @@ h5,h6{font-size:1em;}
     <script src="static/css/semantic.min.js"></script>
     <script src="static/lib/prism/prism.js"></script>
     <script src="static/lib/tocbot/tocbot.min.js"></script>
+    <script src="static/css/jquery.scrollTo.min.js"></script>
+    <script src="static/lib/waypoints/jquery.waypoints.min.js"></script>
+
     <script>
 
         var qrcode = new QRCode("qrcode", {
@@ -793,6 +711,25 @@ h5,h6{font-size:1em;}
             popup : $('.weixinPic.popup'),
             position : 'left center',
         });
+
+        $('#toTop').click(function () {
+            $(window).scrollTo(0,500);
+        })
+
+
+
+        var waypoint = new Waypoint({
+            element: document.getElementById('waypoint'),
+            handler: function(direction) {
+                if (direction == 'down') {
+                    $('#toolbar').show(100);
+                } else {
+                    $('#toolbar').hide(500);
+                }
+                console.log('Scrolled to waypoint!  ' + direction);
+            }
+        })
+
 
     </script>
 </body>
